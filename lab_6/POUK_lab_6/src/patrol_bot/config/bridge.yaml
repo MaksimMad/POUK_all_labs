@@ -1,0 +1,8 @@
+actions:
+- action: nav2_msgs/NavigateToPose
+  ros1_action_name: /move_base
+  ros2_action_name: /navigate_to_pose
+topics:
+- topic: /clicked_point
+  type: geometry_msgs/PointStamped
+  queue_size: 10
